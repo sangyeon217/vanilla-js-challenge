@@ -1,7 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login {
+    margin-top: 15%;
+    text-align: center;
+}
+
+#username {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 400%;
+    text-align: center;
+}
+
+#username:focus {
+    outline: none;
+    border-bottom: solid #4292f9;
+}
+
+#greetings {
+    font-size: 300%;
+}
+
 #clock {
-    position: absolute;
-    top: 20%;
-    left: 25%;
+    margin-top: 10%;
 }
 
 #today-date {
@@ -15,4 +42,13 @@
 
 #today-ampm {
     font-size: 500%;
+}
+
+#question {
+    font-size: 500%;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
 }
