@@ -1,0 +1,18 @@
+#clock {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+#today-date {
+    font-size: 200%;
+}
+
+#today-time {
+    font-size: 1000%;
+    font-weight: bold;
+}
+
+#today-ampm {
+    font-size: 500%;
+}
