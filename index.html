@@ -13,19 +13,35 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div id="login" class="hidden"></div>
-    <div id="clock" class="hidden">
-        <span id="today-date">0000년 00월 00일</span>
-        <div>
-            <span id="today-ampm">AM </span>
-            <span id="today-time">00:00:00</span>  
+    <header>
+        <div id="todo" class="hidden">
+            <span id="todo-leverage">To-Do</span>
+            <div id="todo-layer" class="hidden">
+                <ul id="todo-list"></ul>
+                <form id="todo-form">
+                    <input id="todo-input" type="text" placeholder="New To-Do" maxlength="20" required>
+                    <input type="submit" value="+">
+                </form>
+                <span id="limit-message" class="hidden"></span>
+            </div>
         </div>
-    </div>
-    <div id="greetings" class="hidden">
-        <span id="welcome"></span>
-    </div>
+    </header>
+    <section>
+        <div id="login" class="hidden"></div>
+        <div id="clock" class="hidden">
+            <span id="today-date">0000년 00월 00일</span>
+            <div>
+                <span id="today-ampm">AM </span>
+                <span id="today-time">00:00:00</span>  
+            </div>
+        </div>
+        <div id="greetings" class="hidden">
+            <span id="welcome"></span>
+        </div>
+    </section>
     <script src="js/index.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/todo.js"></script>
     <script src="js/greetings.js"></script>
     <script src="js/background.js"></script>
 </body>

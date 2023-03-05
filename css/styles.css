@@ -1,11 +1,35 @@
 body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+}
+
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: whitesmoke;
+}
+
+input {
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #login {
@@ -18,18 +42,13 @@ body {
 #username {
     color: white;
     text-shadow: 0 0 5px black;
-    border-top: none;
-    border-left: none;
-    border-right: none;
     font-size: 400%;
-    text-align: center;
     background-color: transparent;
 }
 
 #username:focus {
     color: white;
     text-shadow: 0 0 5px black;
-    outline: none;
     border-bottom: solid #4292f9;
 }
 
@@ -63,6 +82,34 @@ body {
 #question {
     font-size: 500%;
     font-weight: bold;
+}
+
+#todo {
+    margin-left: auto;
+}
+
+#todo-leverage {
+    font-size: 150%;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+#todo-layer {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#todo-list li {
+    color: white;
+}
+
+#limit-message {
+    color: red;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hidden {
