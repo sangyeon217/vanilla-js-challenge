@@ -50,7 +50,7 @@ function welcomeUser(username) {
         greeting = `Good Evening`;
     }
     welcome.innerText = `${greeting}, ${username}.`;
-    clock.classList.remove(HIDDEN_CLASSNAME);
+    today.classList.remove(HIDDEN_CLASSNAME);
     greetings.classList.remove(HIDDEN_CLASSNAME);
     toDo.classList.remove(HIDDEN_CLASSNAME);
 }

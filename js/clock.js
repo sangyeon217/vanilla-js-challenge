@@ -1,4 +1,4 @@
-const clock = document.querySelector("#clock");
+const today = document.querySelector("#today");
 const todayDate = document.querySelector("#today-date")
 const todayAmPm = document.querySelector("#today-ampm");
 const todayTime = document.querySelector("#today-time");

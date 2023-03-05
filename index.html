@@ -28,9 +28,12 @@
     </header>
     <section>
         <div id="login" class="hidden"></div>
-        <div id="clock" class="hidden">
-            <span id="today-date">0000년 00월 00일</span>
-            <div>
+        <div id="today" class="hidden">
+            <div id="today-info">
+                <span id="today-date">0000년 00월 00일</span>
+                <span id="today-weather"></span>
+            </div>
+            <div id="today-clock">
                 <span id="today-ampm">AM </span>
                 <span id="today-time">00:00:00</span>  
             </div>
@@ -40,6 +43,8 @@
         </div>
     </section>
     <script src="js/index.js"></script>
+    <!-- <script src="js/key.js"></script> -->
+    <script src="js/weather.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/greetings.js"></script>
