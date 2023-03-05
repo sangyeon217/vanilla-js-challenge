@@ -17,7 +17,7 @@ function userLogin() {
         <form id="login-form">
             <label id="question" for="username">Hello, what's your name?</label>
             <br>
-            <input id="username" name="username" type="text" maxlength="15" required>
+            <input id="username" name="username" type="text" maxlength="15" autofocus required>
             <input class="hidden" type="submit" value="Log In">
         </form>`;
 

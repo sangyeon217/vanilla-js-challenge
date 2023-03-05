@@ -3,45 +3,61 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
 }
 
 #login {
+    color: white;
     margin-top: 15%;
     text-align: center;
+    text-shadow: 3px 3px 0 black;
 }
 
 #username {
+    color: white;
+    text-shadow: 0 0 5px black;
     border-top: none;
     border-left: none;
     border-right: none;
     font-size: 400%;
     text-align: center;
+    background-color: transparent;
 }
 
 #username:focus {
+    color: white;
+    text-shadow: 0 0 5px black;
     outline: none;
     border-bottom: solid #4292f9;
 }
 
 #greetings {
+    color: white;
     font-size: 300%;
+    text-shadow: 0 0 5px black;
 }
 
 #clock {
+    color: white;
     margin-top: 10%;
 }
 
 #today-date {
     font-size: 200%;
+    text-shadow: 0 0 5px black;
 }
 
 #today-time {
     font-size: 1000%;
     font-weight: bold;
+    text-shadow: 5px 5px 0 black;
 }
 
 #today-ampm {
     font-size: 500%;
+    text-shadow: 5px 5px 0 black;
 }
 
 #question {
